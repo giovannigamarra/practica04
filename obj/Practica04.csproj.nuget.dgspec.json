@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\examen\\practica04\\Practica04.csproj": {}
+    "E:\\ejercicio\\practica04\\Practica04.csproj": {}
   },
   "projects": {
-    "E:\\examen\\practica04\\Practica04.csproj": {
+    "E:\\ejercicio\\practica04\\Practica04.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\examen\\practica04\\Practica04.csproj",
+        "projectUniqueName": "E:\\ejercicio\\practica04\\Practica04.csproj",
         "projectName": "Practica04",
-        "projectPath": "E:\\examen\\practica04\\Practica04.csproj",
+        "projectPath": "E:\\ejercicio\\practica04\\Practica04.csproj",
         "packagesPath": "C:\\Users\\giova\\.nuget\\packages\\",
-        "outputPath": "E:\\examen\\practica04\\obj\\",
+        "outputPath": "E:\\ejercicio\\practica04\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\giova\\AppData\\Roaming\\NuGet\\NuGet.Config"

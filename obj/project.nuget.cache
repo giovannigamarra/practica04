@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5PZQPlcXJyburKIxgDKvVeAtHvdGRTckOZMV+j5Bgp7u9IpwG7e2jZWuNA4azP9VY2dVWwIGFxsgdhZsi5IATg==",
+  "dgSpecHash": "9jbD/cQy1BBfV3wKzWPiypvOwBgOrBhf1A+FMwkKrSz1JReLBQleAjqJKqy/lyj1sSW0qOSjvKPkTISzAoDYkQ==",
   "success": true,
-  "projectFilePath": "E:\\examen\\practica04\\Practica04.csproj",
+  "projectFilePath": "E:\\ejercicio\\practica04\\Practica04.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\giova\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\giova\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.7\\microsoft.aspnetcore.cryptography.internal.5.0.7.nupkg.sha512",
