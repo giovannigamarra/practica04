@@ -1,0 +1,29 @@
+@model FormularioRegistro
+<h1>REGISTRAR A Usuario</h1>
+
+<div asp-validation-summary="All"></div>
+
+<form method="post">
+<div class="form-group">
+<label asp-for="titulofoto"></label>
+<input asp-for="titulofoto" class="form-control"/>
+</div>
+<div class="form-group">
+<label asp-for="urlfoto"></label>
+<input asp-for="urlfoto" class="form-control"/>
+</div>
+
+<div class="form-group">
+<label asp-for="comentario"></label>
+<textarea  asp-for="comentario" class="form-control"></textarea>
+</div>
+<div class="form-group">
+<label asp-for="subidopor"></label>
+<input asp-for="subidopor" class="form-control"/>
+</div>
+<div class="form-group">
+<label asp-for="FormularioIngreso"></label>
+<input asp-for="FormularioIngresoId" asp-items="ViewBag.FormularioIngresos"class="form-control"></select>
+</div>
+<button class="btn btn-primary">REGISTRAR</button>
+</form>

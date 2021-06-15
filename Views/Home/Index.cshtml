@@ -1,0 +1,25 @@
+﻿
+@model List<FormularioRegistro>
+@{
+    ViewData["Title"] = "PERU FAILS";
+}
+
+@if (Model.Count() == 0){
+    
+     <p class="text-center">Peru Fails </p>
+    <p class="text-center">No se ingreso fotos</p>
+} else {
+    <div class="row">
+    @foreach(var Registros in Model)
+    {
+<div class="col-4 text-center">
+  <p>Titulo</p><h2>@Registros.titulofoto</h2>
+ <p>Subidopor</p><p>@Registros.subidopor</p>
+ <img src="@Registros.urlfoto" class="img-fluid"/>
+ <p>enviar comentarios</p> <p>@Registros.comentario</p>
+ <button class="btn btn-primary">Enviar Comentario</button>
+
+</div>
+    }
+    </div>
+}
