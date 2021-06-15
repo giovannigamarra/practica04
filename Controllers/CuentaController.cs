@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Identity;
 using Practica04.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
-namespace proyecto_desarrollado.Controllers
+namespace  Practica04.Controllers
 {
     public class CuentaController : Controller
     {
