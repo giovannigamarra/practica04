@@ -14,3 +14,4 @@ namespace Practica04.Models
           public ICollection<FormularioRegistro> FormularioRegistros{get;set;}
     }
 }
+// gg;

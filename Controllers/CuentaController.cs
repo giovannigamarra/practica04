@@ -1,9 +1,8 @@
 ﻿
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
-
-using Practica04.Models;
 using Microsoft.EntityFrameworkCore;
+using Practica04.Models;
 using Microsoft.AspNetCore.Mvc;
 namespace  Practica04.Controllers
 {
@@ -16,7 +15,7 @@ namespace  Practica04.Controllers
             UserManager<IdentityUser> um) {
                 _sim = sim;
                 _um = um;
-
+// gg;
       }
 
         public IActionResult IniciarSesion() {
@@ -44,8 +43,7 @@ namespace  Practica04.Controllers
         [HttpPost]
         public IActionResult CrearCuenta(string email, string password) {
             var usuario = new IdentityUser(email);
-            // usuario.Email = email;
-            // usuario.PhoneNumber = "92928238";
+           
             var resultado = _um.CreateAsync(usuario, password).Result;
 
             if (resultado.Succeeded) {

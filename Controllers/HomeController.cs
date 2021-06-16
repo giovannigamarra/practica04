@@ -23,7 +23,7 @@ namespace Practica04.Controllers
             var formularioRegistros = _context.FormularioRegistros.Include(x => x.FormularioIngreso).Where(x => x.FechaRegistro.AddDays(5) >= DateTime.Now).ToList();
             return View(formularioRegistros);
         }
-
+// gg;
      
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

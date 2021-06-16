@@ -37,3 +37,4 @@ public IActionResult Registros(FormularioRegistro p) {
     }
     }
 }
+// gg;
