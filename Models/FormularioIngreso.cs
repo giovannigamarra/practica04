@@ -8,6 +8,7 @@ namespace Practica04.Models
     {
          public int Id{get;set;}
          [Required]
+
          public string NombreUsuario{get;set;}
         
           public ICollection<FormularioRegistro> FormularioRegistros{get;set;}

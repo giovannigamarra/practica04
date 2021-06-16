@@ -6,13 +6,15 @@ namespace Practica04.Models
     public class FormularioRegistro
     {
          public int Id{get;set;}
-         [Required]
+        
+[Required]
           public string titulofoto{get;set;}
-          [Required]
+           [Required]
          public string urlfoto{get;set;}
-         [Required]
+  [Required]
           public string comentario{get;set;}
-          [Required]
+        
+[Required]
           public string subidopor{get;set;}
           public DateTime FechaRegistro{get;set; }
          public FormularioIngreso FormularioIngreso{get;set;}
